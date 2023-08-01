@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+body{
+  background-color: #B2C8DF;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-color: #B2C8DF;
+  min-height: 120vh;
+  width: 400px;
+  margin: 20px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  color: #2f3c5a;
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.crossed{
+  text-decoration: line-through 2px #d87aab;
+  -webkit-text-decoration-line: line-throuhg;
+  -webkit-text-decoration-color: #d87aab;
+  -webkit-text-decoration-thickness: 2px;
+}
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+ol, li{
 
-.App-link {
-  color: #61dafb;
+  padding: 5px;
+  margin: 5px;
+  color: #2f3c5a;
+  font-family: 'Asap', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add{
+  margin-top: 5px;
+  background: #2f3c5a;
+}
+.delete{
+  margin-bottom: 5px;
+  background: #EC81CB;
+}
+.btn{
+  padding: 5px;
+  border: none;
+  width: 70%;
+  color:aliceblue;
+  font-family: 'Asap', sans-serif;
+}
+input{
+  width:90%;
+  padding: 8px;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+}
+img{
+  border-radius: 10px;
 }
