@@ -8,7 +8,7 @@ The application was created to learn the React Class Components in order to have
 This project can be used for educational purposes.
 
 # Installation
-Use the GitHub link []).
+Use the GitHub link [https://github.com/KatarinaNN/reactToDo.git]).
 
 ## Available Scripts
 
